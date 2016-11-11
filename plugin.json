@@ -1,0 +1,16 @@
+{
+    "id": "nodebb-plugin-youku",
+    "name": "NodeBB Plugin Youku",
+    "description": "NodeBB plugin allows users to embed Youku videos inline in their posts",
+    "url": "https://github.com/pgroot/nodebb-plugin-youku",
+    "library": "./index.js",
+    "hooks": [
+        {
+            "hook": "filter:parse.post", "method": "parse", "priority": 6
+        }
+
+    ],
+    "css": [
+	    "static/style.css"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "nodebb-plugin-youku",
+  "version": "0.0.8",
+  "description": "A NodeBB plugin allows users to embed Youku videos inline in their posts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "youku"
+  ],
+  "author": "Nelson (justmepzy@gmail.com)",
+  "license": "BSD-2-Clause",
+  "repository": "https://github.com/pgroot/nodebb-plugin-youku"
+}
