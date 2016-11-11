@@ -1,8 +1,8 @@
 {
-    "id": "nodebb-plugin-youku",
-    "name": "NodeBB Plugin Youku",
-    "description": "NodeBB plugin allows users to embed Youku videos inline in their posts",
-    "url": "https://github.com/pgroot/nodebb-plugin-youku",
+    "id": "nodebb-plugin-poker",
+    "name": "NodeBB Plugin Poker",
+    "description": "test",
+    "url": "https://github.com/pkuphy/nodebb-plugin-poker",
     "library": "./index.js",
     "hooks": [
         {
