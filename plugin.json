@@ -5,12 +5,14 @@
     "url": "https://github.com/pkuphy/nodebb-plugin-poker",
     "library": "./index.js",
     "hooks": [
-        {
-            "hook": "filter:parse.post", "method": "parse", "priority": 6
-        }
-
+        { "hook": "filter:parse.post", "method": "parse", "priority": 6 },
+        { "hook": "action:post.save", "method": "fetch", "priority": 6 },
+        { "hook": "action:post.edit", "method": "fetch", "priority": 6 }
     ],
     "css": [
-	    "static/style.css"
+        "static/style.css"
+    ],
+    "scripts": [
+        "static/scripts.js"
     ]
 }
