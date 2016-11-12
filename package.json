@@ -13,5 +13,9 @@
   ],
   "author": "Nelson (justmepzy@gmail.com)",
   "license": "BSD-2-Clause",
-  "repository": "https://github.com/pkuphy/nodebb-plugin-poker"
+  "repository": "https://github.com/pkuphy/nodebb-plugin-poker",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "superagent": "^2.3.0"
+  }
 }
