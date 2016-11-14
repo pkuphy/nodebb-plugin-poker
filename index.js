@@ -8,7 +8,7 @@
     let Poker = {};
     let embed = '$1 ';
     embed += '<span><button class="btn btn-xs btn-default toggle-poker-player load-poker-player" data-token="$3">载入牌谱</button>';
-    embed += '<p class="mycanvas"></p><span>';
+    embed += '<span class="mycanvas"></span>';
 
     const pokerUrl = /(>(http:\/\/replay\.pokermate\.net:8080\/handplayer\/replay\/\?url=([a-z0-9]{96}))<\/a>)/g;
 
