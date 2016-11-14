@@ -1,17 +1,14 @@
 {
   "name": "nodebb-plugin-poker",
-  "version": "0.0.9",
-  "description": "A NodeBB plugin allows users to embed Youku videos inline in their posts",
+  "version": "0.1.0",
+  "description": "NodeBB Plugin Poker for http://yue.poker",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [
     "nodebb",
     "plugin",
-    "youku"
+    "poker"
   ],
-  "author": "Nelson (justmepzy@gmail.com)",
+  "author": "caigen",
   "license": "BSD-2-Clause",
   "repository": "https://github.com/pkuphy/nodebb-plugin-poker",
   "dependencies": {

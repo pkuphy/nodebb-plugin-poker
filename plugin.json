@@ -1,18 +1,12 @@
 {
     "id": "nodebb-plugin-poker",
-    "name": "NodeBB Plugin Poker",
-    "description": "test",
+    "name": "NodeBB Plugin Poker for http://yue.poker",
+    "description": "http://yue.poker",
     "url": "https://github.com/pkuphy/nodebb-plugin-poker",
     "library": "./index.js",
     "hooks": [
         { "hook": "filter:parse.post", "method": "parse", "priority": 6 },
-        { "hook": "action:post.save", "method": "fetch", "priority": 6 },
-        { "hook": "action:post.edit", "method": "fetch", "priority": 6 }
-    ],
-    "css": [
-        "static/style.css"
-    ],
-    "scripts": [
-        "static/scripts.js"
+        { "hook": "action:post.save", "method": "store", "priority": 6 },
+        { "hook": "action:post.edit", "method": "store", "priority": 6 }
     ]
 }
