@@ -10,7 +10,7 @@
     embed += '<span><button class="btn btn-xs btn-default toggle-poker-player load-poker-player" data-token="$3">载入牌谱</button>';
     embed += '<span class="mycanvas"></span>';
 
-    const pokerUrl = /(>(http:\/\/replay\.pokermate\.net:8080\/handplayer\/replay\/\?url=([a-z0-9]{96}))(&amp;lang=.{2})?<\/a>)/g;
+    const pokerUrl = /(>(http:\/\/replay\.pokermate\.net:8080\/handplayer\/replay\/\?url=([a-z0-9]{96})).*?<\/a>)/g;
 
     Poker.parse = function(data, callback) {
 
@@ -84,7 +84,6 @@
                                     const str = $('body + script')[0].children[0].data;
                                     const regex = /parseJSON\(\'(\1.*?)\'\)/g;
                                     const json_data = regex.exec(str)[1];
-                                    // console.log(json_data);
                                     db.setObject(_key, {data: json_data});
                                 }
                             }
